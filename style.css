@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+.container {
+  margin: auto;
+  margin-top: 10%;
+  align-content: center;
+  border-radius: 22px;
+  box-shadow: 0px 0px 11px 5px #696767e0;
+  height: 450px;
+  box-shadow: #234d76;
+  background-color: #d1dffb;
+  width: 400px;
+}
+
+.container header {
+  width: 400px;
+  height: 130px;
+  background-color: #3e90f4;
+  position: relative;
+  border-radius: 18px 18px 0px 0;
+}
+.photo {
+  border-radius: 80px;
+  border-color: white;
+  position: relative;
+  bottom: 100px;
+  left: 120px;
+  border: 3px solid rgb(9, 136, 232);
+}
+
+.main {
+  text-align: center;
+  margin-top: -100px;
+}
+
+.main h2 {
+  font-weight: normal;
+}
+.icons svg {
+  width: 25px;
+  height: 25px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin: 15px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 25px;
+}
+
+.button .btn1 {
+  background-color: #3e90f4;
+  border-radius: 17px;
+  padding: 4px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.button .btn2 {
+  background-color: #3e90f4;
+  border-radius: 17px;
+  padding: 4px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn2:hover {
+  background-color: rgb(0, 102, 228);
+}
+
+.btn1:hover {
+  background-color: rgb(0, 102, 228);
+}
+
+.footer svg {
+  width: 15px;
+  height: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: transparent;
+  text-shadow: 0 0 2px rgb(77, 73, 73);
+  margin: 14px;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin: auto;
+    margin-top: 25%;
+    align-content: center;
+    border-radius: 22px;
+    box-shadow: 0px 0px 10px 10px #696767e0;
+    height: 450px;
+    box-shadow: #234d76;
+    width: 350px;
+  }
+
+  .container header {
+    width: 350px;
+  }
+
+  .photo {
+    bottom: 100px;
+    left: 96px;
+  }
+}
